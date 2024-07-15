@@ -40,10 +40,12 @@ p {
     font-weight: 800;
     width: fit-content;
     padding: 10px;
+    font-size: medium;
 }
 
 .date {
     font-weight: 500;
+    font-size: medium;
 }
 
 h1 {
@@ -74,4 +76,14 @@ footer {
 .author {
     font-weight: 800;
     padding: 10px;
+    font-size: medium;
+}
+
+@media screen and (max-width: 780px) {
+    article {
+        width: 75%;
+        max-width: 450px;
+        margin: auto;
+    }
+
 }
